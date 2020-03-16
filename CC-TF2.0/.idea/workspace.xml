@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80031955-5d28-432a-b4f1-db7d56b5c277" name="Default Changelist" comment="" />
+    <list default="true" id="80031955-5d28-432a-b4f1-db7d56b5c277" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.LinearRegression/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.LinearRegression/linear_regression_numpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/data_download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/forward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/readMNIST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/autograd.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.Test/autograd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/gpu_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.Test/gpu_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.Test/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -14,6 +31,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Z9xCjXwVnRcj0WrnEJHfQrgIvn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -21,19 +39,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\CC-LEARN\CC-TF2.0\2" />
       <recent name="D:\workspace\CC-TF2.0" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\CC-LEARN\CC-TF2.0" />
+      <recent name="D:\workspace\CC-LEARN\CC-TF2.0\LinearRegression" />
+      <recent name="D:\workspace\CC-LEARN\CC-TF2.0\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.gpu_test">
-    <configuration name="gpu_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="autograd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,9 +71,66 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gpu_test.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\CC-LEARN\CC-TF2.0\test\autograd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linear_regression_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CC-TF2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\CC-LEARN\CC-TF2.0\LinearRegression\linear_regression_numpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CC-TF2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readMNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CC-TF2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2/readMNIST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -68,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\CC-LEARN\CC-TF2.0\test\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,10 +159,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.autograd" />
+      <item itemvalue="Python.linear_regression_numpy" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.readMNIST" />
+      <item itemvalue="Python.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gpu_test" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.readMNIST" />
+        <item itemvalue="Python.linear_regression_numpy" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.autograd" />
       </list>
     </recent_temporary>
   </component>
@@ -95,40 +187,102 @@
       <option name="presentableId" value="Default" />
       <updated>1584264985506</updated>
       <workItem from="1584264987266" duration="927000" />
+      <workItem from="1584326675308" duration="2621000" />
+      <workItem from="1584330088694" duration="1471000" />
+      <workItem from="1584340369873" duration="7087000" />
     </task>
+    <task id="LOCAL-00001" summary="tf2-test">
+      <created>1584328110439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584328110439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tf2-test" />
+    <option name="LAST_COMMIT_MESSAGE" value="tf2-test" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584347423365">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584347423365" />
     <state x="778" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584265161351">
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
     <state x="778" y="530" key="#com.intellij.fileTypes.FileTypeChooser/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265161351" />
+    <state x="2480" y="147" key="CommitChangelistDialog2" timestamp="1584350681017">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="560" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584328109171" />
+    <state x="2480" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350681017" />
     <state x="1060" y="490" key="FileChooserDialogImpl" timestamp="1584265403662">
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
     <state x="1060" y="490" key="FileChooserDialogImpl/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265403662" />
-    <state width="2517" height="678" key="GridCell.Tab.0.bottom" timestamp="1584265921984">
-      <screen x="0" y="30" width="2560" height="1410" />
+    <state width="1877" height="436" key="GridCell.Tab.0.bottom" timestamp="1584350716862">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.bottom/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
-    <state width="2517" height="678" key="GridCell.Tab.0.center" timestamp="1584265921984">
-      <screen x="0" y="30" width="2560" height="1410" />
+    <state width="1877" height="436" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
+    <state width="1877" height="436" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
+    <state width="1877" height="436" key="GridCell.Tab.0.center" timestamp="1584350716862">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.center/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
-    <state width="2517" height="678" key="GridCell.Tab.0.left" timestamp="1584265921984">
-      <screen x="0" y="30" width="2560" height="1410" />
+    <state width="1877" height="436" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
+    <state width="1877" height="436" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
+    <state width="1877" height="436" key="GridCell.Tab.0.left" timestamp="1584350716862">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.left/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
-    <state width="2517" height="678" key="GridCell.Tab.0.right" timestamp="1584265921984">
-      <screen x="0" y="30" width="2560" height="1410" />
+    <state width="1877" height="436" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
+    <state width="1877" height="436" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
+    <state width="1877" height="436" key="GridCell.Tab.0.right" timestamp="1584350716862">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.right/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
+    <state width="1877" height="436" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
+    <state width="1877" height="436" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
+    <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1584327984697">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.1.bottom/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984697" />
+    <state width="1877" height="328" key="GridCell.Tab.1.center" timestamp="1584327984696">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.1.center/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
+    <state width="1877" height="328" key="GridCell.Tab.1.left" timestamp="1584327984696">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.1.left/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
+    <state width="1877" height="328" key="GridCell.Tab.1.right" timestamp="1584327984696">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.1.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
+    <state x="2381" y="166" key="SettingsEditor" timestamp="1584347392443">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2381" y="166" key="SettingsEditor/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584347392443" />
+    <state x="2672" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584350739940">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2672" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350739940" />
+    <state x="511" y="290" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584327901371">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="511" y="290" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327901371" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CC_TF2_0$gpu_test.coverage" NAME="gpu_test Coverage Results" MODIFIED="1584265814199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CC_TF2_0$test.coverage" NAME="test Coverage Results" MODIFIED="1584265251898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$gpu_test.coverage" NAME="gpu_test Coverage Results" MODIFIED="1584326814661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$main.coverage" NAME="main Coverage Results" MODIFIED="1584347763379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$autograd.coverage" NAME="autograd Coverage Results" MODIFIED="1584327454332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$test.coverage" NAME="test Coverage Results" MODIFIED="1584330124603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
