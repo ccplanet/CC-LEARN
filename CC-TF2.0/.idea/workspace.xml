@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80031955-5d28-432a-b4f1-db7d56b5c277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.LinearRegression/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.LinearRegression/linear_regression_numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/data_download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/forward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/readMNIST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/autograd.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.Test/autograd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/gpu_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.Test/gpu_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.Test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +177,7 @@
       <workItem from="1584264987266" duration="927000" />
       <workItem from="1584326675308" duration="2621000" />
       <workItem from="1584330088694" duration="1471000" />
-      <workItem from="1584340369873" duration="7087000" />
+      <workItem from="1584340369873" duration="7630000" />
     </task>
     <task id="LOCAL-00001" summary="tf2-test">
       <created>1584328110439</created>
@@ -198,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584328110439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加1.简单线性回归 2.手写数字识别">
+      <created>1584350793570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584350793570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tf2-test" />
-    <option name="LAST_COMMIT_MESSAGE" value="tf2-test" />
+    <MESSAGE value="增加1.简单线性回归 2.手写数字识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加1.简单线性回归 2.手写数字识别" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584347423365">
@@ -217,11 +213,11 @@
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
     <state x="778" y="530" key="#com.intellij.fileTypes.FileTypeChooser/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265161351" />
-    <state x="2480" y="147" key="CommitChangelistDialog2" timestamp="1584350681017">
+    <state x="2480" y="147" key="CommitChangelistDialog2" timestamp="1584351148923">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="560" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584328109171" />
-    <state x="2480" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350681017" />
+    <state x="2480" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584351148923" />
     <state x="1060" y="490" key="FileChooserDialogImpl" timestamp="1584265403662">
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
