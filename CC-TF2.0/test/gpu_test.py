@@ -9,6 +9,7 @@ matplotlib.rcParams['font.family'] = ['STKaiti']
 matplotlib.rcParams['axes.unicode_minus']=False 
 
 
+# cpu与gpu的速度对比
 
 import tensorflow as tf
 import timeit
