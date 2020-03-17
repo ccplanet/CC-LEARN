@@ -36,7 +36,7 @@ def step_gradient(b_current, w_current, points, learningRate):
         b_gradient += (2 / N) * ((w_current * x + b_current) - y)
         # grad_w = 2.手写数字识别初试(wx+b-y)*x
         w_gradient += (2 / N) * x * ((w_current * x + b_current) - y)
-    # update w'
+    # update w'`
     new_b = b_current - (learningRate * b_gradient)
     new_w = w_current - (learningRate * w_gradient)
     return [new_b, new_w]

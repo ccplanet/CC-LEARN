@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80031955-5d28-432a-b4f1-db7d56b5c277" name="Default Changelist" comment="">
+    <list default="true" id="80031955-5d28-432a-b4f1-db7d56b5c277" name="Default Changelist" comment="增加1.简单线性回归 2.手写数字识别">
+      <change afterPath="$PROJECT_DIR$/3. 张量前向传播/forward.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.LinearRegression/linear_regression_numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.LinearRegression/linear_regression_numpy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CC-TF2.0" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -32,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -45,8 +51,8 @@
       <recent name="D:\workspace\CC-LEARN\CC-TF2.0\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="autograd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.forward">
+    <configuration name="forward" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,12 +60,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3. 张量前向传播" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workspace\CC-LEARN\CC-TF2.0\test\autograd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3. 张量前向传播/forward.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,6 +78,9 @@
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -91,6 +100,9 @@
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -110,6 +122,9 @@
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -148,19 +163,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.autograd" />
       <item itemvalue="Python.linear_regression_numpy" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.readMNIST" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.forward" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.forward" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.readMNIST" />
         <item itemvalue="Python.linear_regression_numpy" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.autograd" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +192,8 @@
       <workItem from="1584264987266" duration="927000" />
       <workItem from="1584326675308" duration="2621000" />
       <workItem from="1584330088694" duration="1471000" />
-      <workItem from="1584340369873" duration="7630000" />
+      <workItem from="1584340369873" duration="8152000" />
+      <workItem from="1584425813800" duration="7018000" />
     </task>
     <task id="LOCAL-00001" summary="tf2-test">
       <created>1584328110439</created>
@@ -205,6 +221,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加1.简单线性回归 2.手写数字识别" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2472" y="183" key="#Notifications" timestamp="1584425846582">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="183" key="#Notifications/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584425846582" />
     <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584347423365">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
@@ -213,39 +233,39 @@
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
     <state x="778" y="530" key="#com.intellij.fileTypes.FileTypeChooser/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265161351" />
-    <state x="2480" y="147" key="CommitChangelistDialog2" timestamp="1584351148923">
+    <state x="2480" y="147" key="CommitChangelistDialog2" timestamp="1584351606961">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="560" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584328109171" />
-    <state x="2480" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584351148923" />
+    <state x="2480" y="147" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584351606961" />
     <state x="1060" y="490" key="FileChooserDialogImpl" timestamp="1584265403662">
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
     <state x="1060" y="490" key="FileChooserDialogImpl/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265403662" />
-    <state width="1877" height="436" key="GridCell.Tab.0.bottom" timestamp="1584350716862">
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1584432004291">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.bottom/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="436" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
-    <state width="1877" height="436" key="GridCell.Tab.0.center" timestamp="1584350716862">
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584432004291" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1584432004291">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.center/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="436" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
-    <state width="1877" height="436" key="GridCell.Tab.0.left" timestamp="1584350716862">
+    <state width="1877" height="240" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584432004291" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1584432004290">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.left/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="436" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
-    <state width="1877" height="436" key="GridCell.Tab.0.right" timestamp="1584350716862">
+    <state width="1877" height="240" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584432004290" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1584432004291">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.right/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="436" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350716862" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584432004291" />
     <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1584327984697">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -262,14 +282,14 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="328" key="GridCell.Tab.1.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
-    <state x="2381" y="166" key="SettingsEditor" timestamp="1584347392443">
+    <state x="2381" y="166" key="SettingsEditor" timestamp="1584425863020">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="2381" y="166" key="SettingsEditor/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584347392443" />
-    <state x="2672" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584350739940">
+    <state x="2381" y="166" key="SettingsEditor/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584425863020" />
+    <state x="2672" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584425828492">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="2672" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584350739940" />
+    <state x="2672" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584425828492" />
     <state x="511" y="290" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584327901371">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -279,6 +299,7 @@
     <SUITE FILE_PATH="coverage/CC_TF2_0$gpu_test.coverage" NAME="gpu_test Coverage Results" MODIFIED="1584326814661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$main.coverage" NAME="main Coverage Results" MODIFIED="1584347763379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$autograd.coverage" NAME="autograd Coverage Results" MODIFIED="1584327454332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$forward.coverage" NAME="forward Coverage Results" MODIFIED="1584432004239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3. 张量前向传播" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$test.coverage" NAME="test Coverage Results" MODIFIED="1584330124603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
