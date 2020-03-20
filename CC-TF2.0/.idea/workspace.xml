@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80031955-5d28-432a-b4f1-db7d56b5c277" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. 手写数字实战（层）/fashionmnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.keras实战/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.卷积神经网络/cifar100.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CC-TF2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CC-TF2.0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. 张量前向传播/forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. 张量前向传播/forward.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +14,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="CC-TF2.0" />
+    <favorites_list name="CC-TF2.0">
+      <favorite_root url="file://$PROJECT_DIR$/5.keras实战/keras_train.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -34,23 +46,68 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/5.keras实战" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\CC-LEARN\CC-TF2.0\2" />
-      <recent name="D:\workspace\CC-TF2.0" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\CC-LEARN\CC-TF2.0" />
       <recent name="D:\workspace\CC-LEARN\CC-TF2.0\LinearRegression" />
       <recent name="D:\workspace\CC-LEARN\CC-TF2.0\test" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\CC-LEARN\CC-TF2.0\5.keras实战" />
+      <recent name="D:\workspace\CC-LEARN\CC-TF2.0\2" />
+      <recent name="D:\workspace\CC-TF2.0" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.forward">
+  <component name="RunManager" selected="Python.cifar100">
+    <configuration name="cifar100" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CC-TF2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.卷积神经网络" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.卷积神经网络/cifar100.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fashionmnist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CC-TF2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4. 手写数字实战（层）" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4. 手写数字实战（层）/fashionmnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="forward" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,28 +124,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3. 张量前向传播/forward.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="linear_regression_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CC-TF2.0" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workspace\CC-LEARN\CC-TF2.0\LinearRegression\linear_regression_numpy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -117,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readMNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CC-TF2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,34 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.keras实战" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2/readMNIST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CC-TF2.0" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workspace\CC-LEARN\CC-TF2.0\test\test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.keras实战/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +175,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.linear_regression_numpy" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.readMNIST" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.forward" />
+      <item itemvalue="Python.fashionmnist" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.cifar100" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cifar100" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.fashionmnist" />
         <item itemvalue="Python.forward" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.readMNIST" />
-        <item itemvalue="Python.linear_regression_numpy" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +208,14 @@
       <workItem from="1584425813800" duration="7273000" />
       <workItem from="1584504877273" duration="603000" />
       <workItem from="1584511100665" duration="2907000" />
+      <workItem from="1584580531772" duration="598000" />
+      <workItem from="1584583425961" duration="31000" />
+      <workItem from="1584583499092" duration="3389000" />
+      <workItem from="1584593235788" duration="14000" />
+      <workItem from="1584601195844" duration="4110000" />
+      <workItem from="1584665107212" duration="665000" />
+      <workItem from="1584665788355" duration="3036000" />
+      <workItem from="1584683843666" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary="tf2-test">
       <created>1584328110439</created>
@@ -251,10 +272,11 @@
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584347423365" />
-    <state x="778" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584265161351">
-      <screen x="0" y="30" width="2560" height="1410" />
+    <state x="2504" y="402" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584668823743">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="778" y="530" key="#com.intellij.fileTypes.FileTypeChooser/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265161351" />
+    <state x="2504" y="402" key="#com.intellij.fileTypes.FileTypeChooser/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584668823743" />
     <state x="2480" y="147" key="CommitChangelistDialog2" timestamp="1584434605680">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
@@ -264,46 +286,50 @@
       <screen x="0" y="30" width="2560" height="1410" />
     </state>
     <state x="1060" y="490" key="FileChooserDialogImpl/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265403662" />
-    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1584514031314">
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1584693503800">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.bottom/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="253" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584514031314" />
-    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1584514031313">
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503800" />
+    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1584693503800">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.center/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="253" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584514031313" />
-    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1584514031313">
+    <state width="1877" height="328" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503800" />
+    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1584693503800">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.left/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="253" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584514031313" />
-    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1584514031314">
+    <state width="1877" height="328" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503800" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1584693503800">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="2517" height="678" key="GridCell.Tab.0.right/-1920.30.1920.1050/0.30.2560.1410@0.30.2560.1410" timestamp="1584265921984" />
     <state width="1877" height="436" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584332767319" />
-    <state width="1877" height="253" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584514031314" />
-    <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1584327984697">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503800" />
+    <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1584693503801">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="328" key="GridCell.Tab.1.bottom/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984697" />
-    <state width="1877" height="328" key="GridCell.Tab.1.center" timestamp="1584327984696">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1877" height="328" key="GridCell.Tab.1.bottom/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503801" />
+    <state width="1877" height="328" key="GridCell.Tab.1.center" timestamp="1584693503801">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="328" key="GridCell.Tab.1.center/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
-    <state width="1877" height="328" key="GridCell.Tab.1.left" timestamp="1584327984696">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1877" height="328" key="GridCell.Tab.1.center/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503801" />
+    <state width="1877" height="328" key="GridCell.Tab.1.left" timestamp="1584693503800">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="328" key="GridCell.Tab.1.left/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
-    <state width="1877" height="328" key="GridCell.Tab.1.right" timestamp="1584327984696">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1877" height="328" key="GridCell.Tab.1.left/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503800" />
+    <state width="1877" height="328" key="GridCell.Tab.1.right" timestamp="1584693503801">
+      <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="328" key="GridCell.Tab.1.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1584327984696" />
+    <state width="1877" height="328" key="GridCell.Tab.1.right/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1584693503801" />
     <state x="2381" y="166" key="SettingsEditor" timestamp="1584425863020">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
@@ -319,8 +345,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CC_TF2_0$gpu_test.coverage" NAME="gpu_test Coverage Results" MODIFIED="1584326814661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$cifar100.coverage" NAME="cifar100 Coverage Results" MODIFIED="1584689953984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.卷积神经网络" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$fashionmnist.coverage" NAME="fashionmnist Coverage Results" MODIFIED="1584609358054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. 手写数字实战（层）" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$main.coverage" NAME="main Coverage Results" MODIFIED="1584347763379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$autograd.coverage" NAME="autograd Coverage Results" MODIFIED="1584327454332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CC_TF2_0$train.coverage" NAME="train Coverage Results" MODIFIED="1584685919812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.keras实战" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$forward.coverage" NAME="forward Coverage Results" MODIFIED="1584514006033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3. 张量前向传播" />
     <SUITE FILE_PATH="coverage/CC_TF2_0$test.coverage" NAME="test Coverage Results" MODIFIED="1584330124603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
